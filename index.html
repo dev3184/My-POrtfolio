@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="https://www.flaticon.com/free-icons/code" title="code icons"></a>
+    <a href="https://www.flaticon.com/free-icons/web-development" title="web development icons"></a>
+    <a href="https://www.flaticon.com/free-icons/foreign" title="foreign icons"></a>
+    <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons"></a>
+    <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons"></a>
+    <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons"></a>
+    <a href="https://www.flaticon.com/free-icons/telephone" title="telephone icons"></a>
+    <a href="https://www.flaticon.com/free-icons/menu" title="menu icons"></a>
+    <a href="https://www.flaticon.com/free-icons/cancel" title="cancel icons"></a>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="cancel.png" class="menubar"  onclick="closemenu()"  alt="">
+                </ul>
+                <img src="menu.png" class="menubar"  onclick="openmenu()" alt="">
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm<span>Dev</span> <br>Bhalani from India </h1>
+            </div>
+        </div>
+     </div>
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-column-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>Hyy iam b.tech student right now i am learning about various feild in tech field so this is the first project of my web desigen skill this is made with the help of expert because i am beginner here i hope i will nailed it soon so sorry for any inconvineance if face it i hope i will fix it as soon as possible so thanks for visiting.</p>
+                    <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interface</li>
+                        <li><span>Coding</span><br>Beginner At Coding</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Exploring</span><br>Currently learning</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Complete SSC With 99.61%(Persentile)</li>
+                        <li><span>2022</span><br>Complete HSC With 99.41%(Persentile)</li>
+                        <li><span>2022-2026</span><br>Persuing B.Tech From VGEC-Ahemdabad,Gujrat</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+     </div>
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="coding (1).png" class="services-img" alt="">
+                    <h2>Web Design</h2>
+                    <p>Hello, as above mentioned i am learner in this web desigen domain i am not expert but i assure you that i don't let you down if you want to work with me.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="data.png" class="services-img" alt="">
+                    <h2>Code Learner</h2>
+                    <p>I am going parallel in both skill web design as well as coding i learn<span> 70%</span> C-launguage and <span>40%</span> java it is quite difficult to go parallel in both skill but i can't stop.</p>
+                    <a href="#">Learn more</a>
+                </div>
+              
+            </div>
+
+        </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>Please Don't Misguided I am Social Media Sroller Not Devloper Because I Just Started My Carrier In Tech World.</p>
+                        
+                    </div>
+               </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>This The First Project of My Web Desigen Skills Hopefully I Can Add More Work In Sometime. </p>
+                        
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                        <h1 class="sub-title">Contect Me</h1>
+                        <p> <img src="gmail.png" alt=""> devbhalani3184@gmail.com</p>
+                        <p> <img src="telephone-call.png" alt=""> 9924594514</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/_itsdevv3184_?igshid=ZDdkNTZiNTM="><img src="instagram.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/dev-bhalani-6b266a26b/"><img src="linkedin.png" alt=""></a>
+                        </div>
+                        <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    <div id="msg">
+                        <span></spane>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright  @Dev.</p>
+        </div>
+     </div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks ){
+            tablink.classList.remove('active-link');
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add('active-tab');
+    }</script> 
+    <script>
+           var sidemenu= document.getElementById("sidemenu");
+           function openmenu(){
+                  sidemenu.style.right="0";
+           }
+           function closemenu(){
+                  sidemenu.style.right="-200px";
+           }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyH1Pfs8ZrJEcVa-p5o68FcO8Rs2v5LjgFlnglQiFJIJm_GVJLn07wGp7uoPYXypZ8t/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                  msg.innerHTML = "Massage sent sucessfully"
+                  setTimeout(function(){
+                   msg.innerHTML =""
+                  },5000)
+                  form.reset()  
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
